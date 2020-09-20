@@ -10,4 +10,5 @@ A roll dice game created in C
 - If statement - if the countTime is equal to 0 then exit the program.
 
 # Example of the game
-![rolldicegame](https://user-images.githubusercontent.com/36749450/93713477-3aaf8100-fb2a-11ea-9f3b-b0d8a6af2f1d.PNG)
+![rolldicegame](https://user-images.githubusercontent.com/36749450/93713522-819d7680-fb2a-11ea-9cae-bf1b3f3f685c.PNG)
+
