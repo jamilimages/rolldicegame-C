@@ -15,7 +15,6 @@ A roll dice game created in C
 - I used a for loop to calculate the 'counttime' variable based on user input
 - using the 'rand' function to calculate the number of sides of a dice = totaling 6 sides
 ```c
-	// Variables 
 	int i;
 	int dice;
 	int countTime;
@@ -33,7 +32,6 @@ A roll dice game created in C
 ```
 - If statement - if the countTime is equal to 0 then exit the program.
 ```c
-	// If statement - if the countTime is equal to 0 then exit the program...
 	if(countTime != 0)
 		{
 		printf("Dice: %d\t\t", dice);
