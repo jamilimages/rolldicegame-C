@@ -5,12 +5,35 @@ A roll dice game created in C
 # What I've learned
 - Using Dev-C++ to create this C program
 - the use of the 'time.h' library to randomly generate the integer for user input
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+```
 - I used a for loop to calculate the 'counttime' variable based on user input
+```c
+	// Variables 
+	int i;
+	int dice;
+	int countTime;
+	srand(time(NULL));
+	
+	printf("Let's Play! How many times you wanna roll? ");
+	scanf("%d", &countTime);
+	
+	// For loop for running how many times the program will run... 
+	for(i=0; i<countTime; i++)
+	{
+		
+		dice = ( (rand() % 6) + 1);
+
+```
 - using the 'rand' function to calculate the number of sides of a dice = totaling 6 sides
 - If statement - if the countTime is equal to 0 then exit the program.
 ```c
-
-// If statement - if the countTime is equal to 0 then exit the program...
+	// If statement - if the countTime is equal to 0 then exit the program...
 	if(countTime != 0)
 		{
 		printf("Dice: %d\t\t", dice);
